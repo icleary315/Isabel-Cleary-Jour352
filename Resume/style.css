@@ -3,8 +3,13 @@
 body{
 font-family: 'Open Sans', Arial, sans-serif;
 font-size: 1em;
-color: #444444;
+color: black;
 font-weight: 400;
+}
+
+#photo {
+  margin: 0 auto;
+  width: 100%;
 }
 
 #container {
@@ -32,7 +37,7 @@ padding-bottom: 50px;
   margin: 0 auto;
 }
 /*My title */
-#title {
+.titles {
   text-transform: uppercase;
   font-size: 1.5em;
   color: #33485e;
@@ -42,21 +47,40 @@ padding-bottom: 50px;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
+  border-radius: 25px;
 }
-/*Section titles */
-.sectionheader {
+
+#sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: 400;
-  background-color: #33485e;
-  color: #FFFFFF;
+  background-color: #A0DBF5;
+  color: black;
   margin-bottom: 10px;
   margin-top: 20px; /* top right bottom left if want all under margin*/
-  margin-left: 0;
-  margin-right: 0;
-  width: 70%;
-  min-width: 300px;
+  margin-left: 500px;
+  margin-right: 350px;
+  width: 15%;
+  min-width: 100px;
+  text-align: center;
+  border-radius: 25px;
 }
+/*Section titles */
+.titles {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: #A0DBF5;
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 20px; /* top right bottom left if want all under margin*/
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 15%;
+  min-width: 100px;
+  text-align: center;
+}
+
 /*Job titles */
 .jobtitle {
   font-weight: 600;
