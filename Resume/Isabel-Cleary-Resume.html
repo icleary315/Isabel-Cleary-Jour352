@@ -8,22 +8,52 @@
   <link rel="stylesheet" type="text/css" href="style.css"> <!--this is how you link to styesheeet!-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
 
-<div id="container">
+
  <body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <a class="navbar-brand" href="#">Isabel's Resume</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+   </button>
+
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul class="navbar-nav mr-auto">
+     <li class="nav-item active">
+    <a class="nav-link" href="#reel">Reel <span class="sr-only">(current)</span></a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#experience">Experience</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#skills">Skills</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#Work Examples">Work Examples</a>
+     </li>
+   </ul>
+   </form>
+   </div>
+   </nav>
+
    <img src="Web 1920 – 1.png" alt="Resume Header" id="photo">
 <!--I built this myself!-->
-
+<div id="container">
   <div class="menu"> <ul>
      <li> <a href="isabelmcleary@gmail.com"> Email </a> </li>
      <li> <a href="https://www.linkedin.com/feed/"> LinkedIn </a> </li>
      <li> <a href="https://twitter.com/IsabelCleary"> Twitter </a> </li>
      <li> <a href="https://github.com/icleary315"> Github </a> </li>
    </ul>
+ </div>
 
+<div id="reel"> </div>
+<div style="text-align:center;">
   <iframe title="vimeo-player" src="https://player.vimeo.com/video/518666129" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
+</div>
+<div id="experience"/>
  </div>
    <p class="description"> </p>
    <div id="sectionheader">Resume</div>
@@ -118,6 +148,7 @@
       <li> FIRE: Fire Year Innovation and Research Experience: Risk Communication and Resilience </li>
     </ul>
   </div>
+  <div id="skills"/>
   <div class="titles">Skills</div>
   <div id="do"> <ul>
     <li> Broadcast HD Field Cameras </li>
@@ -135,12 +166,19 @@
     <li> Proficient in Microsoft Excel and Google Sheets </li>
     <li> Language: Conversational in Spanish </li>
   </ul>
-
+<div id="Work Examples"/>
 <div class="titles">Work Examples</div>
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/466684749" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-<iframe src="https://player.vimeo.com/video/475196149" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-  <iframe title="vimeo-player" src="https://player.vimeo.com/video/487030855" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
+<div class="row">
+  <div class="vid">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/466684749" width="300" height="200" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="vid">
+<iframe src="https://player.vimeo.com/video/475196149" width="300" height="200" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="vid">
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/487030855" width="300" height="200" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
 
 </div>
 

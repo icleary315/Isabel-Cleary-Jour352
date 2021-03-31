@@ -5,6 +5,9 @@ font-family: 'Open Sans', Arial, sans-serif;
 font-size: 1em;
 color: black;
 font-weight: 400;
+padding-left: 50px;
+padding-right: 50px;
+text-align: left;
 }
 
 #photo {
@@ -128,3 +131,19 @@ text-align: center;
   margin-right: 0;
   margin-bottom: 0;
 }
+
+.column {
+  float: left;
+  width: 200px;
+  padding: 5px;
+}
+
+.vid {
+  width: 320px;
+  display: inline-block;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
