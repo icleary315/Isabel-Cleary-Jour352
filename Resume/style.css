@@ -113,6 +113,7 @@ ul {
   margin: 0;
   padding: 0;
   display: inline;
+  font-size: 20px;
 }
 .menu {
 text-align: center;
@@ -141,9 +142,11 @@ text-align: center;
 .vid {
   width: 320px;
   display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+#line {
+  color: #A0DBF5;
+  weight: 20px;
+}
