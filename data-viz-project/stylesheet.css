@@ -1,0 +1,17 @@
+/* color to use #651320 */
+
+#body {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+#photo {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+}
