@@ -5,6 +5,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
+  font: Helvetica, Arial, sans-serif;
 }
 
 #photo {
@@ -14,4 +15,32 @@
 
 .title {
   text-align: center;
+  font-size: 25px;
+  font-style: bold;
+  text-decoration: underline;
+}
+
+.picture {
+  margin: 0 auto;
+}
+
+#blockquote { /*blockquote adapted from a style found online at https://css-tricks.com/ */
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: #651320;
+  font-size: 20px;
+}
+#blockquote:before {
+  color: #651320;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+#blockquote p {
+  display: inline;
 }
