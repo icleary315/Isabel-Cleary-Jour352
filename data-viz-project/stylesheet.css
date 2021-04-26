@@ -6,6 +6,8 @@
   margin: 0 auto;
   padding-bottom: 50px;
   font: Helvetica, Arial, sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 #photo {
@@ -18,10 +20,18 @@
   font-size: 25px;
   font-style: bold;
   text-decoration: underline;
+  padding-top: 25px;
 }
 
 .picture {
   margin: 0 auto;
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+text-align: center;
 }
 
 #blockquote { /*blockquote adapted from a style found online at https://css-tricks.com/ */
