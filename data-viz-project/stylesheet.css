@@ -28,7 +28,12 @@
   font-size: 25px;
   font-style: bold;
   text-decoration: underline;
-  padding-top: 25px;
+  background-color: #651320;
+  color: white;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .picture {
